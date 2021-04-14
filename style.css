@@ -1,9 +1,13 @@
 *{
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 p{
 	text-align: justify;
+}
+a{
+	text-decoration: none;
 }
 .header{
 	min-height: 20vh;
@@ -64,6 +68,7 @@ p{
 	padding-top: 0.4em;
 }
 .admission-btn{
+	border: none;
 	padding: 1em 3em;
 	color: red;
 	border-radius: 15px;
@@ -91,22 +96,24 @@ p{
 	position:absolute;
 	margin-top: 1em;
 	height: 30vh;
-	width: 113.5%;
+	width: 100%;
 	bottom: 0;
 	z-index: 2;
 	background-image: url("images/wave_hpc.png");
 	background-position: center;
 	background-size: cover;
-	margin-left: -2.2em;
+	margin-left: -0.6em;
 	margin-top: 1em;
 	overflow: hidden;
 }
+
+
 .leadership{
 	padding: 1em;
 	background-attachment: fixed;
 	background-image: url("images/abc.jpg"); /* The image used */
   	background-color: #cccccc; /* Used if the image is unavailable */
-  	height: 500px; /* You must set a specified height */
+  	 /* You must set a specified height */
   	background-position: center; /* Center the image */
   	background-repeat: no-repeat; /* Do not repeat the image */
   	background-size: cover; /* Resize the background image to cover the entire container */
@@ -160,6 +167,44 @@ p{
 	width: 58%;
 
 }
+.footer_list li a button{
+			width:70%;
+		}
+		.footer_list li a button:hover{
+			background:darkorange;
+		}
+		.footer_list1 li a{
+			font-size:17px;
+			color:#BAC5C6;
+		}
+		.footer_list1 li a:hover{
+			text-decoration: none;
+			transition: .5s;
+			border-left: 2px solid #808080;
+			padding-left: 5px;
+			color:#808080;
+		}
+			#social_menu ul li{
+			margin-top:20px; 
+			list-style:none;
+			display:inline-block;
+			font-size:20px;
+			color:white;
+		}
+		#social_menu ul li:hover{
+			transition: .5s;
+			transform: rotate(360deg);
+			background:#EEEEEE;
+		}
+		.social_back{
+            height:30px;
+            width:30px;
+            padding-left:6px;
+            border-radius:20%;
+        }
+        .social_back a{
+    	    color:#EEEEEE;
+        }
 
 @media(max-width: 700px){
 	.img img{
