@@ -205,6 +205,14 @@ a{
         .social_back a{
     	    color:#EEEEEE;
         }
+        .overview{
+        	padding: 1em;
+        	background: #022147;
+        }
+        #ewu_template:hover{
+  			transition: .5s;
+  			transform: scaleY(1.2);
+  		}
 
 @media(max-width: 700px){
 	.img img{
