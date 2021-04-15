@@ -184,7 +184,7 @@ a{
 			padding-left: 5px;
 			color:#808080;
 		}
-			#social_menu ul li{
+		#social_menu ul li{
 			margin-top:20px; 
 			list-style:none;
 			display:inline-block;
@@ -241,12 +241,10 @@ a{
 	.leadership div{
 		margin-bottom: 1em;
 	}
+	.result{
+		position: relative;
+		min-height: 50vh;
+	}
 
 }
 
-
-
-
-.remove{
-	min-height: 100vh;
-}
